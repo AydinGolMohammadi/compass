@@ -1,16 +1,40 @@
-# compass
+# Crypto App
 
-A new Flutter project.
 
-## Getting Started
+# 3rd Packages
+    - dio:  Http Client
+    - flutter_bloc : for State Managment 
+    - get_it :  for Dependecy injection
+    - flutter_launcher_icons:  App's icon managment
+    - cached_network_image :  Caching network images
 
-This project is a starting point for a Flutter application.
+# Widgets
+    - Profile: for User information
+    - Balance_Card:  for Balance information
+    - Live_Prices:  it gets live data from webscoket channel
+    - Crypto_assets:  it gets crypto name and icon from rest api
+    - Cached_circle_avatar: to cache crypto icons
 
-A few resources to get you started if this is your first Flutter project:
+# Environments
+    I used Android Studio
+    Flutter 3.10.5 • channel stable 
+    Dart 2.19.0
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# How to run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    First, Android Studio -> AVD Manager -> run select device
+
+    Second, VS Code termial: flutter run -d 'device_name'
+
+# Images
+
+<div style="text-align: center">
+    <table>
+        <tr>
+            <td style="text-align: center">
+                    <img src="assets/images/Screenshot.jpg" width="300"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
