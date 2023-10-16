@@ -175,14 +175,16 @@ class CompassController extends GetxController {
           ),
         ],
       );
+    } else if (status == LocationPermission.always || status == LocationPermission.whileInUse){
+      final position = await Geolocator.getCurrentPosition();
+      lat = position.latitude.obs;
+      lng = position.longitude.obs;
+      if (kDebugMode) {
+        print(lat);
+        print(lng);
+      }
+      hasPermissions.value = true;
     }
-    final position = await Geolocator.getCurrentPosition();
-    lat = position.latitude.obs;
-    lng = position.longitude.obs;
-    if (kDebugMode) {
-      print(lat);
-      print(lng);
-    }
-    hasPermissions.value = true;
+
   }
 }

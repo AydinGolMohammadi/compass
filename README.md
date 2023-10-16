@@ -1,24 +1,18 @@
-# Crypto App
+# Compass app
 
 
 # 3rd Packages
     - dio:  Http Client
-    - flutter_bloc : for State Managment 
-    - get_it :  for Dependecy injection
+    - get : for State Managment 
     - flutter_launcher_icons:  App's icon managment
-    - cached_network_image :  Caching network images
 
-# Widgets
-    - Profile: for User information
-    - Balance_Card:  for Balance information
-    - Live_Prices:  it gets live data from webscoket channel
-    - Crypto_assets:  it gets crypto name and icon from rest api
-    - Cached_circle_avatar: to cache crypto icons
+# Features
+    - Compass: for orientation
 
 # Environments
     I used Android Studio
-    Flutter 3.10.5 • channel stable 
-    Dart 2.19.0
+    Flutter 3.13.3 • channel stable 
+    Dart 3.1.1
 
 # How to run
 
